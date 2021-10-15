@@ -34,12 +34,12 @@ autodoc_mock_imports = ["soundfile", "librosa"]
 
 # -- Project information -----------------------------------------------------
 
-project = 'parakeet'
-copyright = '2020, parakeet-developers'
-author = 'parakeet-developers'
+project = 'paddlespeech'
+copyright = '2021, Deepspeech-developers'
+author = 'Deepspeech-developers'
 
 # The full version, including alpha/beta/rc tags
-release = '0.4'
+release = '2.1'
 
 # -- General configuration ---------------------------------------------------
 source_parsers = {
@@ -54,13 +54,13 @@ pygments_style = 'sphinx'
 # ones.
 extensions = [
             'sphinx.ext.autodoc',
-                'sphinx.ext.viewcode',
-                    "sphinx_rtd_theme",
-                        'sphinx.ext.mathjax',
-                            'numpydoc',
-                                'sphinx.ext.autosummary',
-                                    'myst_parser',
-                                    ]
+            'sphinx.ext.viewcode',
+            'sphinx_rtd_theme',
+            'sphinx.ext.mathjax',
+            'sphinx.ext.autosummary',
+            'numpydoc',
+            'myst_parser',
+         ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
