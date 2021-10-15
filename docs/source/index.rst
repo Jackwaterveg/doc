@@ -20,3 +20,4 @@ Contents
 
    usage
    api
+   released_model
