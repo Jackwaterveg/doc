@@ -18,6 +18,4 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   released_model
+   reference
